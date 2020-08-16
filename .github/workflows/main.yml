@@ -1,0 +1,32 @@
+name: "ozgurgorgulu.com"
+
+on:
+  push:
+    branches: master
+    paths-ignore:
+      - "**.md"
+      - ".github/dependabot.yml"
+
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "[SET UP] Checkout repo"
+        uses: actions/checkout@master
+
+      - name: "[SET UP] Set up Node"
+        uses: actions/setup-node@master
+
+      - name: "[SET UP] Install dependencies"
+        run: npm install
+
+
+      - name: "[DEPLOY] Build for production"
+        run: npm run generate
+
+      - name: "[DEPLOY] Deploy to Firebase"
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

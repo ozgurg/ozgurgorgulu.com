@@ -1,0 +1,51 @@
+html {
+    background: #fafafa
+}
+
+.icon.icon-link {
+    background: url(~assets/img/ic-hash.svg) no-repeat center/contain;
+    display: inline-block;
+    margin-right: .5rem;
+    width: 16px;
+    height: 16px
+}
+
+.navbar-brand {
+    margin-left: 0 !important;
+    @media(max-width: 1024px) {
+        margin-left: 1.5rem !important
+    }
+    .navbar-item {
+		pointer-events: none;
+        padding: 0;
+        img {
+	  max-height: unset
+        }
+    }
+}
+
+.navbar-burger {
+    margin-right: .5rem !important;
+    background: 0 !important
+}
+
+.navbar-menu {
+    margin: 0 !important
+}
+
+.dropdown-menu .dropdown-item {
+    padding-right: 1em
+}
+
+.hero-body {
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important
+}
+
+footer {
+    margin-bottom: 2rem;
+    iframe {
+        height: 30px
+    }
+}
