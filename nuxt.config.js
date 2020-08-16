@@ -45,6 +45,12 @@ export default {
 	content: {
 		liveEdit: false
 	},
+	plugins: [
+		{
+			src: "~/plugins/firebase.js",
+			mode: "client"
+		}
+	],
 	buefy: {
 		materialDesignIcons: false
 	},
