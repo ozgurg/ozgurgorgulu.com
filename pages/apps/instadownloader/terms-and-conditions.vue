@@ -16,13 +16,13 @@ export default {
 	layout: "apps",
 	async asyncData({ $content, params }) {
 		return {
-			termsAndConditions: await $content("ozgurgorgulu.doubletaptolock/terms-and-conditions", params).fetch()
+			termsAndConditions: await $content("instadownloader/terms-and-conditions", params).fetch()
 		};
 	},
 	data() {
 		return {
 			title: "Terms & Conditions",
-			appName: "Double Tap To Lock"
+			appName: "InstaDownloader"
 		};
 	},
 	head() {
@@ -34,7 +34,7 @@ export default {
 				{
 					hid: "description",
 					name: "description",
-					content: "You can use double tap to lock feature on your phone easily. ✌ - Double Tap To Lock is free for Android!"
+					content: "Download Instagram photos and videos with just one tap! - InstaDownloader is free for Android!"
 				}
 			]
 		};

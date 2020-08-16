@@ -16,12 +16,12 @@
 								   right=""
 								   hoverable="">
 					<b-navbar-item tag="nuxt-link"
-								   :to="`/apps/${app.packageName}/privacy-policy`">
+								   :to="`/apps/${app.url}/privacy-policy`">
 						Privacy Policy
 					</b-navbar-item>
 
 					<b-navbar-item tag="nuxt-link"
-								   :to="`/apps/${app.packageName}/terms-and-conditions`">
+								   :to="`/apps/${app.url}/terms-and-conditions`">
 						Terms & Conditions
 					</b-navbar-item>
 
@@ -61,14 +61,17 @@ export default {
 			apps: [
 				{
 					title: "Double Tap To Lock",
+					url: "double-tap-to-lock",
 					packageName: "ozgurgorgulu.doubletaptolock"
 				},
 				{
 					title: "InstaDownloader",
+					url: "instadownloader",
 					packageName: "ozgurgorgulu.instdownloader"
 				},
 				{
 					title: "Rebootify",
+					url: "rebootify",
 					packageName: "ozgurgorgulu.rebootify"
 				}
 			]

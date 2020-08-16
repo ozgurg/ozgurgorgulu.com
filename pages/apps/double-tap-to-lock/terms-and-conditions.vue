@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<Hero :title="title"
-			  :description="description" />
+			  :description="appName" />
 
 		<div class="box">
 			<div class="content">
@@ -16,25 +16,25 @@ export default {
 	layout: "apps",
 	async asyncData({ $content, params }) {
 		return {
-			termsAndConditions: await $content("ozgurgorgulu.rebootify/terms-and-conditions", params).fetch()
+			termsAndConditions: await $content("double-tap-to-lock/terms-and-conditions", params).fetch()
 		};
 	},
 	data() {
 		return {
 			title: "Terms & Conditions",
-			description: "Rebootify"
+			appName: "Double Tap To Lock"
 		};
 	},
 	head() {
 		const vm = this;
 
 		return {
-			title: `${vm.title} - ${vm.description}`,
+			title: `${vm.title} - ${vm.appName}`,
 			meta: [
 				{
 					hid: "description",
 					name: "description",
-					content: "You can quickly reboot into 5 modes your device with root access. - Rebootify is free for Android!"
+					content: "You can use double tap to lock feature on your phone easily. ✌ - Double Tap To Lock is free for Android!"
 				}
 			]
 		};

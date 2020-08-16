@@ -7,12 +7,12 @@ It is my personal website that stores legal texts of my Android apps.
 There is no home page right now. When you visit home page of the site, you will redirect to my GitHub profile.
 
 You can access all of available pages in this list: (Texts are same 🤫)
-- [/apps/ozgurgorgulu.doubletaptolock/privacy-policy](https://ozgurgorgulu.com/apps/ozgurgorgulu.doubletaptolock/privacy-policy)
-- [/apps/ozgurgorgulu.doubletaptolock/terms-and-conditions](https://ozgurgorgulu.com/apps/ozgurgorgulu.doubletaptolock/terms-and-conditions)
-- [/apps/ozgurgorgulu.instdownloader/privacy-policy](https://ozgurgorgulu.com/apps/ozgurgorgulu.instdownloader/privacy-policy)
-- [/apps/ozgurgorgulu.instdownloader/terms-and-conditions](https://ozgurgorgulu.com/apps/ozgurgorgulu.instdownloader/terms-and-conditions)
-- [/apps/ozgurgorgulu.rebootify/privacy-policy](https://ozgurgorgulu.com/apps/ozgurgorgulu.rebootify/privacy-policy)
-- [/apps/ozgurgorgulu.rebootify/terms-and-conditions](https://ozgurgorgulu.com/apps/ozgurgorgulu.rebootify/terms-and-conditions)
+- [/apps/double-tap-to-lock/privacy-policy](https://ozgurgorgulu.com/apps/double-tap-to-lock/privacy-policy)
+- [/apps/double-tap-to-lock/terms-and-conditions](https://ozgurgorgulu.com/apps/double-tap-to-lock/terms-and-conditions)
+- [/apps/instadownloader/privacy-policy](https://ozgurgorgulu.com/apps/instadownloader/privacy-policy)
+- [/apps/instadownloader/terms-and-conditions](https://ozgurgorgulu.com/apps/instadownloader/terms-and-conditions)
+- [/apps/rebootify/privacy-policy](https://ozgurgorgulu.com/apps/rebootify/privacy-policy)
+- [/apps/rebootify/terms-and-conditions](https://ozgurgorgulu.com/apps/rebootify/terms-and-conditions)
 - [/sitemap.xml](https://ozgurgorgulu.com/sitemap.xml)
 
 ## Under the hood

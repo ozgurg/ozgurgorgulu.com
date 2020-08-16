@@ -16,7 +16,7 @@ export default {
 	layout: "apps",
 	async asyncData({ $content, params }) {
 		return {
-			privacyPolicy: await $content("ozgurgorgulu.rebootify/privacy-policy", params).fetch()
+			privacyPolicy: await $content("rebootify/privacy-policy", params).fetch()
 		};
 	},
 	data() {

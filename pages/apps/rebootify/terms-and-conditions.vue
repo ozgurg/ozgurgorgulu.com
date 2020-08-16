@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<Hero :title="title"
-			  :description="appName" />
+			  :description="description" />
 
 		<div class="box">
 			<div class="content">
@@ -16,25 +16,25 @@ export default {
 	layout: "apps",
 	async asyncData({ $content, params }) {
 		return {
-			termsAndConditions: await $content("ozgurgorgulu.instdownloader/terms-and-conditions", params).fetch()
+			termsAndConditions: await $content("rebootify/terms-and-conditions", params).fetch()
 		};
 	},
 	data() {
 		return {
 			title: "Terms & Conditions",
-			appName: "InstaDownloader"
+			description: "Rebootify"
 		};
 	},
 	head() {
 		const vm = this;
 
 		return {
-			title: `${vm.title} - ${vm.appName}`,
+			title: `${vm.title} - ${vm.description}`,
 			meta: [
 				{
 					hid: "description",
 					name: "description",
-					content: "Download Instagram photos and videos with just one tap! - InstaDownloader is free for Android!"
+					content: "You can quickly reboot into 5 modes your device with root access. - Rebootify is free for Android!"
 				}
 			]
 		};
