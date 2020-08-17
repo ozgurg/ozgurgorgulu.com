@@ -3,7 +3,7 @@ html {
 }
 
 .icon.icon-link {
-    background: url(~assets/img/ic-hash.svg) no-repeat center/contain;
+    background: url(~assets/img/ic-link.svg) no-repeat center/contain;
     display: inline-block;
     margin-right: .5rem;
     width: 16px;
@@ -16,7 +16,7 @@ html {
         margin-left: 1.5rem !important
     }
     .navbar-item {
-		pointer-events: none;
+        pointer-events: none;
         padding: 0;
         img {
 	  max-height: unset
