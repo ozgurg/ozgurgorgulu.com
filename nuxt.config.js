@@ -1,7 +1,4 @@
 export default {
-	env: {
-		baseUrl: "https://ozgurgorgulu.com"
-	},
 	mode: "universal",
 	target: "static",
 	router: {
