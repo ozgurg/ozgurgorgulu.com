@@ -2,7 +2,6 @@ export default {
 	mode: "universal",
 	target: "static",
 	router: {
-		trailingSlash: false,
 		linkActiveClass: "is-active",
 		extendRoutes(routes, resolve) {
 			routes.push({
