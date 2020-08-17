@@ -42,6 +42,8 @@
 		<hr style="border-color:#fff" />
 
 		<footer class="content has-text-centered">
+			<p><small>Google Play and the Google Play logo are trademarks of Google LLC.</small></p>
+
 			<p>This site is open source developed by
 				<a href="https://github.com/ozgurg" rel="nofollow noopener noreferrer" target="_blank">@ozgurg</a>.
 			</p>
