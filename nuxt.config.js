@@ -59,7 +59,8 @@ export default {
 			lastmod: new Date()
 		},
 		exclude: [
-			"/404"
+			"/404",
+			"/apps/*/store"
 		]
 	}
 };
