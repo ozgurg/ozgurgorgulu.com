@@ -5,7 +5,7 @@ By downloading or using THE APP, these terms will automatically apply to you –
 
 THE DEVELOPER is committed to ensuring that THE APP is as useful and efficient as possible. For that reason, we reserve the right to make changes to THE APP or to charge for its services, at any time and for any reason. We will never charge you for THE APP or its services without making it very clear to you exactly what you're paying for.
 
-THE APP stores and processes personal data that you have provided to us, in order to provide my Service. It's your responsibility to keep your phone and access to THE APP secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone's security features and, it could mean that THE APP won't work properly or at all.
+THE APP stores and processes personal data that you have provided to us, in order to provide its service. It's your responsibility to keep your phone and access to THE APP secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone's security features and, it could mean that THE APP won't work properly or at all.
 
 You should be aware there are certain things that THE DEVELOPER will not take responsibility for. Certain functions of THE APP will require THE APP to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but THE DEVELOPER cannot take responsibility for THE APP not working at full functionality if you don't have access to Wi-Fi, and you don't have any of your data allowance left.
 
@@ -19,7 +19,7 @@ At some point, we may wish to update THE APP. THE APP is currently available on 
 
 
 ### Changes to These Terms and Conditions
-I may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Terms and Conditions on this page. These changes are effective immediately after they are posted on this page.
+We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. These changes are effective immediately after they are posted on this page.
 
 ### Contact Us
-If you have any questions or suggestions about my Terms and Conditions, do not hesitate to contact me. E-mail: ozgurgorgulu54 [at] gmail.com
+If you have any questions or suggestions about this Terms and Conditions, do not hesitate to contact us. E-mail: ozgurgorgulu54 [at] gmail.com
