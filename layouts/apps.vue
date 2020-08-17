@@ -25,9 +25,8 @@
 						Terms & Conditions
 					</b-navbar-item>
 
-					<b-navbar-item :href="`https://play.google.com/store/apps/details?id=${app.packageName}`"
-								   rel="nofollow noopener noreferrer"
-								   target="_blank">
+					<b-navbar-item tag="nuxt-link"
+								   :to="`/apps/${app.url}/store`">
 						Get it on Google Play
 					</b-navbar-item>
 				</b-navbar-dropdown>
