@@ -5,7 +5,7 @@
 
 		<div class="box">
 			<div class="content">
-				<nuxt-content :document="privacyPolicy" />
+				<nuxt-content :document="content" />
 
 				<hr />
 
@@ -20,7 +20,7 @@ export default {
 	layout: "apps",
 	async asyncData({ $content, params }) {
 		return {
-			privacyPolicy: await $content("instadownloader/privacy-policy", params).fetch()
+			content: await $content("instadownloader/privacy-policy", params).fetch()
 		};
 	},
 	data() {

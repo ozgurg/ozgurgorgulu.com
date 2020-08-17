@@ -5,7 +5,7 @@
 
 		<div class="box">
 			<div class="content">
-				<nuxt-content :document="termsAndConditions" />
+				<nuxt-content :document="content" />
 
 				<hr />
 
@@ -20,7 +20,7 @@ export default {
 	layout: "apps",
 	async asyncData({ $content, params }) {
 		return {
-			termsAndConditions: await $content("double-tap-to-lock/terms-and-conditions", params).fetch()
+			content: await $content("double-tap-to-lock/terms-and-conditions", params).fetch()
 		};
 	},
 	data() {

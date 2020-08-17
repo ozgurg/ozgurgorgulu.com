@@ -5,7 +5,7 @@
 
 		<div class="box">
 			<div class="content">
-				<nuxt-content :document="termsAndConditions" />
+				<nuxt-content :document="content" />
 
 				<hr />
 
@@ -20,7 +20,7 @@ export default {
 	layout: "apps",
 	async asyncData({ $content, params }) {
 		return {
-			termsAndConditions: await $content("instadownloader/terms-and-conditions", params).fetch()
+			content: await $content("instadownloader/terms-and-conditions", params).fetch()
 		};
 	},
 	data() {
