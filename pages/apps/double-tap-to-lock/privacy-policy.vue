@@ -6,6 +6,10 @@
 		<div class="box">
 			<div class="content">
 				<nuxt-content :document="privacyPolicy" />
+
+				<hr />
+
+				<GooglePlayBadge app-name="double-tap-to-lock" />
 			</div>
 		</div>
 	</div>

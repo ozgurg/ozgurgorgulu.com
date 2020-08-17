@@ -6,6 +6,10 @@
 		<div class="box">
 			<div class="content">
 				<nuxt-content :document="termsAndConditions" />
+
+				<hr />
+
+				<GooglePlayBadge app-name="instadownloader" />
 			</div>
 		</div>
 	</div>

@@ -57,6 +57,7 @@
 export default {
 	data() {
 		return {
+			// TODO: Apps will be added to the Vuex
 			apps: [
 				{
 					title: "Double Tap To Lock",
