@@ -23,3 +23,6 @@ We may update our Terms and Conditions from time to time. Thus, you are advised 
 
 ### Contact Us
 If you have any questions or suggestions about this Terms and Conditions, do not hesitate to contact us. E-mail: ozgurgorgulu54 [at] gmail.com
+
+This app is not affiliated or belong with Instagram.
+Instagram is trademarks of Instagram LLC.

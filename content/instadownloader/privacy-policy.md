@@ -59,3 +59,6 @@ We may update our Privacy Policy from time to time. Thus, you are advised to rev
 
 ### Contact Us
 If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact us. E-mail: ozgurgorgulu54 [at] gmail.com
+
+This app is not affiliated or belong with Instagram.
+Instagram is trademarks of Instagram LLC.
