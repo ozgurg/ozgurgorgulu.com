@@ -9,7 +9,7 @@
 
 				<hr />
 
-				<GooglePlayBadge app-name="rebootify" />
+				<GooglePlayBadge url="https://rebootify.page.link/store" />
 			</div>
 		</div>
 	</div>

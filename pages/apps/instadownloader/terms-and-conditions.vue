@@ -9,7 +9,7 @@
 
 				<hr />
 
-				<GooglePlayBadge app-name="instadownloader" />
+				<GooglePlayBadge url="https://instadownloader.page.link/store" />
 			</div>
 		</div>
 	</div>

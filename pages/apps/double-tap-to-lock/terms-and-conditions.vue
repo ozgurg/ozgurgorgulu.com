@@ -9,7 +9,7 @@
 
 				<hr />
 
-				<GooglePlayBadge app-name="double-tap-to-lock" />
+				<GooglePlayBadge url="https://dttl.page.link/store" />
 			</div>
 		</div>
 	</div>

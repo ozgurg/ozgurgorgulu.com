@@ -25,8 +25,7 @@
 						Terms & Conditions
 					</b-navbar-item>
 
-					<b-navbar-item tag="nuxt-link"
-								   :to="`/apps/${app.url}/store`">
+					<b-navbar-item :href="app.storeUrl">
 						Get it on Google Play
 					</b-navbar-item>
 				</b-navbar-dropdown>
@@ -64,17 +63,20 @@ export default {
 				{
 					title: "Double Tap To Lock",
 					url: "double-tap-to-lock",
-					packageName: "ozgurgorgulu.doubletaptolock"
+					packageName: "ozgurgorgulu.doubletaptolock",
+					storeUrl: "https://dttl.page.link/store"
 				},
 				{
 					title: "InstaDownloader",
 					url: "instadownloader",
-					packageName: "ozgurgorgulu.instdownloader"
+					packageName: "ozgurgorgulu.instdownloader",
+					storeUrl: "https://instadownloader.page.link/store"
 				},
 				{
 					title: "Rebootify",
 					url: "rebootify",
-					packageName: "ozgurgorgulu.rebootify"
+					packageName: "ozgurgorgulu.rebootify",
+					storeUrl: "https://rebootify.page.link/store"
 				}
 			]
 		};
