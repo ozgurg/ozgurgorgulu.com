@@ -77,6 +77,12 @@ export default {
 					url: "rebootify",
 					packageName: "ozgurgorgulu.rebootify",
 					storeUrl: "https://rebootify.page.link/store"
+				},
+				{
+					title: "Currency Logger",
+					url: "currency-logger",
+					packageName: "og.app.currencylogger",
+					storeUrl: "https://currencylogger.page.link/store"
 				}
 			]
 		};
