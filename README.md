@@ -13,6 +13,8 @@ You can access all of available pages in this list: (Texts are same 🤫)
 - [/apps/instadownloader/terms-and-conditions](https://ozgurgorgulu.com/apps/instadownloader/terms-and-conditions)
 - [/apps/rebootify/privacy-policy](https://ozgurgorgulu.com/apps/rebootify/privacy-policy)
 - [/apps/rebootify/terms-and-conditions](https://ozgurgorgulu.com/apps/rebootify/terms-and-conditions)
+- [/apps/currency-logger/privacy-policy](https://ozgurgorgulu.com/apps/currency-logger/privacy-policy)
+- [/apps/currency-logger/terms-and-conditions](https://ozgurgorgulu.com/apps/currency-logger/terms-and-conditions)
 - [/sitemap.xml](https://ozgurgorgulu.com/sitemap.xml)
 
 ## Under the hood
