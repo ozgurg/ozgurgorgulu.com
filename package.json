@@ -4,8 +4,5 @@
     "private": true,
     "scripts": {
         "emulator": "firebase emulators:start --only hosting"
-    },
-    "peerDependencies": {
-        "firebase-tools": "13.9.0"
     }
 }
