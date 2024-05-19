@@ -2,6 +2,18 @@
     "hosting": {
         "public": "public",
         "cleanUrls": true,
-        "trailingSlash": false
+        "trailingSlash": false,
+        "redirects": [
+            {
+                "source": "/apps/currency-logger/privacy-policy",
+                "destination": "/apps/currenlytics/privacy-policy",
+                "type": 301
+            },
+            {
+                "source": "/apps/currency-logger/terms-and-conditions",
+                "destination": "/apps/currenlytics/terms-and-conditions",
+                "type": 301
+            }
+        ]
     }
 }
