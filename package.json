@@ -1,7 +1,14 @@
 {
     "name": "ozgurgorgulu.com",
     "version": "2.0.0",
+    "description": "Hi, I'm Özgür. This website stores legal texts of my Android apps.",
+    "license": "MIT",
+    "homepage": "https://ozgurgorgulu.com/",
     "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ozgurg/ozgurgorgulu.com"
+    },
     "scripts": {
         "emulator": "firebase emulators:start --only hosting"
     }
