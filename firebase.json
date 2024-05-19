@@ -24,6 +24,24 @@
                         "value": "default-src 'none'; style-src 'self'; img-src 'self'"
                     }
                 ]
+            },
+            {
+                "source": "**/*.html",
+                "headers": [
+                    {
+                        "key": "Cache-Control",
+                        "value": "max-age=86400"
+                    }
+                ]
+            },
+            {
+                "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|js|css|eot|otf|ttf|ttc|woff|woff2|font.css|mp4|webm)",
+                "headers": [
+                    {
+                        "key": "Cache-Control",
+                        "value": "max-age=31536000"
+                    }
+                ]
             }
         ]
     }
