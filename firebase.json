@@ -1,12 +1,7 @@
 {
     "hosting": {
-        "public": "dist",
-        "ignore": [],
-        "rewrites": [
-            {
-                "source": "**",
-                "destination": "/index.html"
-            }
-        ]
+        "public": "public",
+        "cleanUrls": true,
+        "trailingSlash": false
     }
 }
