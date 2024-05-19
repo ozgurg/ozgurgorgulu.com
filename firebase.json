@@ -1,11 +1,30 @@
 {
-  "hosting": {
-    "public": "./dist",
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
-  }
+    "hosting": {
+        "public": "public",
+        "cleanUrls": true,
+        "trailingSlash": false,
+        "redirects": [
+            {
+                "source": "/apps/currency-logger/privacy-policy",
+                "destination": "/apps/currenlytics/privacy-policy",
+                "type": 301
+            },
+            {
+                "source": "/apps/currency-logger/terms-and-conditions",
+                "destination": "/apps/currenlytics/terms-and-conditions",
+                "type": 301
+            }
+        ],
+        "headers": [
+            {
+                "source": "**",
+                "headers": [
+                    {
+                        "key": "Content-Security-Policy",
+                        "value": "default-src 'none'; style-src 'self'; img-src 'self'"
+                    }
+                ]
+            }
+        ]
+    }
 }
