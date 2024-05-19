@@ -2,7 +2,7 @@
 
 Source code of my website that stores legal texts of my Android apps.
 
-# Stack
+## Stack
 
 I created it using plain HTML, styled it with [Pico CSS](https://picocss.com/), and deployed it to [Firebase Hosting](https://firebase.google.com/docs/hosting) using [GitHub Actions](https://github.com/features/actions).
 
